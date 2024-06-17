@@ -13,6 +13,7 @@ namespace RestWithASPNET.Services.Implementations
         {
             _context = context;
         }
+
         public List<Person> FindAll()
         {
             return _context.People.ToList();
